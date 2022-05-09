@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!-- owlCaroussel css -->
+    <link rel="stylesheet" href="style/owlCaroussel/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owlCaroussel/owl.theme.default.min.css">
+
+    <link rel="shortcut icon" href="https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico">
+    <title>Netflix</title>
+  </head>
+  <body>
+    <h1>Página inicial do Netflix</h1>
+
+    <nav id="main-navbar" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img id="nav-logo" src="./img/logo.svg" alt="logo da netflix">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Início</a>
+              <a class="nav-link" aria-current="page" href="#">Série</a>
+              <a class="nav-link" aria-current="page" href="#">Filmes</a>
+              <a class="nav-link" aria-current="page" href="#">Bombando</a>
+              <a class="nav-link" aria-current="page" href="#">Minha Lista</a>
+
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main id="producao-destaque">
+        <div class="main-info">
+            <div id="titulo-producao-destaque">
+                <img src="img/titulo_prod_destaque.webp" alt="título da producao em destaque!">
+                <p>Um consultor financeiro leva a família para um lago remoto para lavar quinhentos milhões de dólares e acalmar um traficante.</p>
+
+                <div class="main-btns">
+
+                    <button type="button" class="btn d-flex btn-light center main-btn btn-assistir-main">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 2.69127C4 1.93067 4.81547 1.44851 5.48192 1.81506L22.4069 11.1238C23.0977 11.5037 23.0977 12.4963 22.4069 12.8762L5.48192 22.1849C4.81546 22.5515 4 22.0693 4 21.3087V2.69127Z" fill="black"></path></svg>
+
+                        <span class="main-btn-text"> Assistir </span>
+                    </button>
+
+                    <button id="btn-mais-infos" type="button" class="btn d-flex btn-secondary center main-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="Hawkins-Icon Hawkins-Icon-Standard"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3ZM1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12ZM13 10V18H11V10H13ZM12 8.5C12.8284 8.5 13.5 7.82843 13.5 7C13.5 6.17157 12.8284 5.5 12 5.5C11.1716 5.5 10.5 6.17157 10.5 7C10.5 7.82843 11.1716 8.5 12 8.5Z" fill="white"></path></svg>
+
+                        <span class="main-btn-text"> Mais informações </span>
+                    </button>
+                    
+                </div>
+            </div>
+        </div>
+      </main>
+
+      <section class="caroussel">
+        <h2>Populares na Netflix</h2>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="img/capasFilmes/mini1.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini2.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini3.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini4.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini6.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini5.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini7.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini8.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini9.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini10.jpg"></img>
+          </div>
+
+      </div>
+      </section>
+
+      <section class="caroussel">
+        <h2>Em alta</h2>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="img/capasFilmes/mini10.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini8.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini9.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini7.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini5.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini6.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini4.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini3.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini2.jpg"></img>
+          </div>
+          <div class="item">
+            <img src="img/capasFilmes/mini1.jpg"></img>
+          </div>
+
+      </div>
+      </section>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    <!-- Jquery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- owlCaroussel JS -->
+      <script src="js/owlCaroussel/owl.carousel.min.js"></script>
+      
+    
+    <script src="js/setup.js"></script>
+
+  </body>
+</html>
